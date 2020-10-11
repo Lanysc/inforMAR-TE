@@ -1,0 +1,285 @@
+.main_header
+{
+    padding: 8px 0;
+    background-color: #111111;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.main_header .main_header_content
+{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main_header .main_header_content .logo
+{
+    flex-basis: 330px;
+    padding: 20px;
+    width: 290px;
+}
+
+.main_header .main_header_content .main_header_content_menu
+{
+    flex-basis: calc(100% - 330px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main_header_content_menu ul
+{
+    display: flex;
+    align-items: stretch;
+
+}
+
+.main_header_content_menu ul li
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.main_header_content_menu ul li a
+{
+    padding: 0 26px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #ffffff;
+    transition: 0.6s;
+}
+
+header.sticky
+{
+    padding: 0 0;
+    opacity: 0.9;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+header ul li a:hover
+{
+    background: #2196f3;
+    transition: 0.6s;
+}
+
+/* cta */
+
+.main_cta{
+    width: 100%;
+    background-image: url("images/banner2.jpg");
+    background-color: #111111;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_cta .main_cta_content
+{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.main_cta .main_cta_content h1 {
+    font-size: 4em;
+    color: #FFF;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main_cta .main_cta_content p
+{
+    font-size: 3em;
+    color: #FFF;
+    font-weight: 300;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.main_cta .main_cta_content .btn
+{
+    font-size: 0.6em;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background-color: #2196f3;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    transition: 0.6s;
+}
+
+.main_cta .main_cta_content .btn:hover
+{
+    background-color: #244dca;
+    color: #FFF;
+    transition: 0.6s;
+}
+
+.main_cta .main_cta_content .main_cta_content_spacer
+{
+    margin: 0 auto;
+    max-width: 1300px;
+    padding-top: 350px;
+}
+
+/* Blog */
+
+.main_blog
+{
+    background-color: #f6f6f6;
+}
+
+.main_blog_box
+{
+    max-width: calc(1300px - 20px);
+    padding:30px 10px;
+    margin: 0 auto;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main_blog .main_blog_box .main_blog_header
+{
+    flex-basis: 100%;
+    margin: 30px 0;
+}
+
+.main_blog .main_blog_box .main_blog_header h1
+{
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 1.8em;
+}
+
+.main_blog .main_blog_box .main_blog_header p
+{
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+.main_blog article
+{
+    flex-basis: calc(40% - 20px);
+    margin-bottom: 30px;
+    transition: 0.6s;
+}
+
+.main_blog article:hover
+{
+    opacity: 0.8;
+    transition: 0.6s;
+}
+
+.main_blog article img
+{
+    width: 100%;
+}
+
+.main_blog article p
+{
+    margin: 10px 0;
+    font-size: 0.875em;
+    color: #244dca;
+}
+
+.main_blog article h2
+{
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.main_blog article h2 a
+{
+    color: #333;
+}
+
+/* About */
+
+.main_about
+{
+    background-color: #fff;
+}
+
+.main_about .main_about_box
+{
+    max-width: calc(1300px - 20px);
+    padding:10px 10px;
+    padding-top: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main_about .main_about_header
+{
+    flex-basis: 100%;
+    margin: 30px 0;
+}
+
+.main_about .main_about_header h1
+{
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 1.8em;
+}
+
+.main_about_content img
+{
+    max-width: 75%;
+    margin-left: 10px;
+}
+
+.main_about_content
+{
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_about_content h2
+{
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.main_about_content p
+{
+    font-size: 1.2em;
+}
+
+.w50
+{
+    min-width: 50%;
+}
+
+/* Footer */
+
+.main_footer{
+    background-color: #333333;
+    color: #FFF;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.main_footer_content{
+    width: 96%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main_footer_content > header{
+    font-size: 1.1em;
+    font-weight: 300;
+}
