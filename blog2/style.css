@@ -1,0 +1,163 @@
+.main_header
+{
+    padding: 8px 0;
+    background-color: #111111;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.main_header .main_header_content
+{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main_header .main_header_content .logo
+{
+    flex-basis: 330px;
+    padding: 20px;
+    width: 290px;
+}
+
+.main_header .main_header_content .main_header_content_menu
+{
+    flex-basis: calc(100% - 330px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main_header_content_menu ul
+{
+    display: flex;
+    align-items: stretch;
+
+}
+
+.main_header_content_menu ul li
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.main_header_content_menu ul li a
+{
+    padding: 0 26px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #ffffff;
+    transition: 0.6s;
+}
+
+header.sticky
+{
+    padding: 0 0;
+    opacity: 0.9;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+header ul li a:hover
+{
+    background: #2196f3;
+    transition: 0.6s;
+}
+
+
+/* Cta */
+
+.main_cta{
+    width: 100%;
+    background-image: url("images/banner2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_cta .main_cta_content
+{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.main_cta .main_cta_content h1 {
+    font-size: 3.5em;
+    color: #FFF;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main_cta .main_cta_content .main_cta_content_spacer
+{
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 200px;
+}
+
+/* Blog */
+
+.main_article
+{
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.main_article .main_article_box
+{
+    max-width: calc(1200px - 20px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main_article .main_article_header
+{
+    width: 100%;
+    flex-basis: 100%;
+    margin: 30px 0;
+}
+
+.main_article .main_article_header h2
+{
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 2em;
+}
+
+.main_article .main_article_box p
+{
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 1.4em;
+}
+
+.main_article .main_article_box .main_article_published p
+{
+    text-align: left;
+    color: #474747;
+    margin-top: 5px;
+    font-size: 0.875em;
+}
+/* Footer */
+
+.main_footer{
+    background-color: #333333;
+    color: #FFF;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.main_footer_content{
+    width: 96%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main_footer_content > header{
+    font-size: 1.1em;
+    font-weight: 300;
+}
